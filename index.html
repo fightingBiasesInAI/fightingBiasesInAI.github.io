@@ -190,7 +190,7 @@
             <!-- Solution Grid Items-->
             <div class="row">
                 <!-- Solution Item 1-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-6 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -198,11 +198,12 @@
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
                         <img class="img-fluid" src="assets/img/solutions/s1.png" alt="" />
-                        <h3 class="font-weight-bolder text-center text-uppercase text-secondary">Pre Processing Data</h3>
+                        <h3 class="font-weight-bolder text-center text-uppercase text-secondary">Pre Processing Data
+                        </h3>
                     </div>
                 </div>
                 <!-- Solution Item 2-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-6 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -210,20 +211,11 @@
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
                         <img class="img-fluid" src="assets/img/solutions/s2.png" alt="" />
-                        <h3 class="font-weight-bolder text-center text-uppercase text-secondary">POST PROCESSING AND ALGORITHMIC ANALYSIS</h3>
+                        <h3 class="font-weight-bolder text-center text-uppercase text-secondary">POST PROCESSING AND
+                            ALGORITHMIC ANALYSIS</h3>
                     </div>
                 </div>
-                <!-- Solution Item 3-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
-                    </div>
-                </div>
+            
             </div>
         </div>
     </section>
@@ -509,30 +501,97 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Problems/Solution Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/solutions/s1.png" alt="" />
+                                <img class="img-fluid rounded" src="assets/img/solutions/s1.png" alt="" />
+                                <p class="font-weight-light"> <i>img credit:
+                                    </i>
+                                </p>
                                 <!-- Problems/Solution Modal - Text-->
-                                <p class="mb-5">Artificial Intelligence is built based on large data sets and pattern finding algorithms that find similarities between training data points and patterns to come to a conclusion for a particular issue. These data sets are the building blocks of machine learning and this process can easily introduce bias in AI algorithms. The first step toward fighting bias in AI is to acknowledge its existence and work to make sure that the AI you build does not further discriminatory bias. It is through analysis of these data sets that AI bias can be mitigated. 
-                                    The first step to reducing bias is to take note of what your AI is intending to accomplish and what data is relevant to achieve this goal. Algorithms use data sets that have many factors in them, sometimes in the millions, in order to determine results like bank loans, job recruiting, bail bonds, and facial recognition. In the case of AI used to determine the top candidates for a job, there are many factors that can be relevant such as level of education, years of experience, letters of recommendation, and more. However factors such as gender and race are sometimes used as factors in data sets and leads to these machines learning that people of a certain gender and race, most typically white males, are more likely to be qualified for a job. This is due to systemic and historical issues that have made white males more likely to be successful compared to others which in return impacts data sets to select them more than others. In job candidate algorithms, race and gender should not be used as factors as they are not relevant to one’s ability to perform a job successfully and the use of this will continue to support the glass ceiling on non white non males in the workforce. As we can see, it is very important to thoroughly analyze and understand the problem that your AI is trying to solve and then determine which factors in your data set are relevant to utilize. Keeping in mind the ramifications of continuing to perpetuate historical inequities is important and this can be curtailed by having only relevant factors that do not further discrimination. Too many irrelevant factors in data sets leads to incorrect conclusions as algorithms can draw parallels between unrelated factors leading to increased bias.
-                                    Another way to reduce bias in data set preprocessing is to use datasets that are very inclusive of people of varying racial and gender backgrounds and are representative of the population. A major flaw in machine learning is the use of large non representative data sets. Typically these data sets are packed with data from white males and have considerably less non white and non male data. This means that artificial intelligence is predominantly built on white male data for accuracy on white males. This is highly flawed and does not hold up well when used across various racial and gender identities that end up varying drastically from the AI model that was not trained on people like them. Since society does not consist solely of this white male class of people, data sets must be more inclusive and representative of the population in order to be more accurate. 
-                                    When data collection is not representative, issues arise such as simply not being able to detect or compute results for a POC. One example of this is seen with facial recognition failing to detect darker toned faces while white men perform greatly. As Joy Buolamwini states in her Ted Talk on fighting bias in algorithms, facial recognition is built from a large data set of primarily white men with very low inclusion of others which makes it very difficult for her Black female face to be recognized. However, when she places a white mask over her face, her face is instantly detected showing the algorithmic bias within many facial detection programs. This clearly shows the detrimental and non inclusive effects of a non representative data set. Data sets must have more inclusion otherwise white males become the standard and anyone who differs from this ends up as a small majority of the data set. This can sometimes be seen more so as noise in the data, rather than valid data, which does not lend itself to being a significant part of the trained AI algorithm.
-                                Since there is low data training that is inclusive of people of various racial and gender backgrounds, when these algorithms are built and tested on new people of similar backgrounds there is a strong algorithmic tendency to treat these people exactly like that subset of data. While a particular data set may have millions of data on white men, people of other ethnic and gender backgrounds may only have data in the thousands. This algorithmically reduces anyone who is tested on this algorithm to have the same tendencies as this small subset of people from the training set that had the same background. This easily continues to perpetuate stereotypes and discriminate since there is likely historical inequities in this group which is further magnified when the test group is algorithmically determined to behave in the same way. Within a racial group there is still variation along many factors, some being wealth, age, height and weight, and more. But having low representation in the training set reduces people to the small range given in the training. White males on the other hand have a large range of people with differing features in these same factors. So accuracy on white males is much higher as there is a wide range the AI is trained on unlike for other ethnic groups that are reduced to being one and the same due to minimal representation in training sets. In order to combat this, training data sets must be much more inclusive of the ethnic and gender backgrounds of the population for higher accuracy and less discriminatory biases in the algorithms.
-                                
+                                <p class="lead text-left">Artificial Intelligence is built based on large data sets and
+                                    pattern finding algorithms that find similarities between training data points and
+                                    patterns to come to a conclusion for a particular issue. These data sets are the
+                                    building blocks of machine learning and this process can easily introduce bias in AI
+                                    algorithms. The first step toward fighting bias in AI is to acknowledge its
+                                    existence and work to make sure that the AI you build does not further
+                                    discriminatory bias. It is through analysis of these data sets that AI bias can be
+                                    mitigated. <br>
+                                    The first step to reducing bias is to take note of what your AI is intending to
+                                    accomplish and what data is relevant to achieve this goal. Algorithms use data sets
+                                    that have many factors in them, sometimes in the millions, in order to determine
+                                    results like bank loans, job recruiting, bail bonds, and facial recognition. In the
+                                    case of AI used to determine the top candidates for a job, there are many factors
+                                    that can be relevant such as level of education, years of experience, letters of
+                                    recommendation, and more. However factors such as gender and race are sometimes used
+                                    as factors in data sets and leads to these machines learning that people of a
+                                    certain gender and race, most typically white males, are more likely to be qualified
+                                    for a job. This is due to systemic and historical issues that have made white males
+                                    more likely to be successful compared to others which in return impacts data sets to
+                                    select them more than others. In job candidate algorithms, race and gender should
+                                    not be used as factors as they are not relevant to one’s ability to perform a job
+                                    successfully and the use of this will continue to support the glass ceiling on non
+                                    white non males in the workforce. As we can see, it is very important to thoroughly
+                                    analyze and understand the problem that your AI is trying to solve and then
+                                    determine which factors in your data set are relevant to utilize. Keeping in mind
+                                    the ramifications of continuing to perpetuate historical inequities is important and
+                                    this can be curtailed by having only relevant factors that do not further
+                                    discrimination. Too many irrelevant factors in data sets leads to incorrect
+                                    conclusions as algorithms can draw parallels between unrelated factors leading to
+                                    increased bias.<br>
+                                    Another way to reduce bias in data set preprocessing is to use datasets that are
+                                    very inclusive of people of varying racial and gender backgrounds and are
+                                    representative of the population. A major flaw in machine learning is the use of
+                                    large non representative data sets. Typically these data sets are packed with data
+                                    from white males and have considerably less non white and non male data. This means
+                                    that artificial intelligence is predominantly built on white male data for accuracy
+                                    on white males. This is highly flawed and does not hold up well when used across
+                                    various racial and gender identities that end up varying drastically from the AI
+                                    model that was not trained on people like them. Since society does not consist
+                                    solely of this white male class of people, data sets must be more inclusive and
+                                    representative of the population in order to be more accurate.<br>
+                                    When data collection is not representative, issues arise such as simply not being
+                                    able to detect or compute results for a POC. One example of this is seen with facial
+                                    recognition failing to detect darker toned faces while white men perform greatly. As
+                                    Joy Buolamwini states in her Ted Talk on fighting bias in algorithms, facial
+                                    recognition is built from a large data set of primarily white men with very low
+                                    inclusion of others which makes it very difficult for her Black female face to be
+                                    recognized. However, when she places a white mask over her face, her face is
+                                    instantly detected showing the algorithmic bias within many facial detection
+                                    programs. This clearly shows the detrimental and non inclusive effects of a non
+                                    representative data set. Data sets must have more inclusion otherwise white males
+                                    become the standard and anyone who differs from this ends up as a small majority of
+                                    the data set. This can sometimes be seen more so as noise in the data, rather than
+                                    valid data, which does not lend itself to being a significant part of the trained AI
+                                    algorithm.<br>
+                                    Since there is low data training that is inclusive of people of various racial and
+                                    gender backgrounds, when these algorithms are built and tested on new people of
+                                    similar backgrounds there is a strong algorithmic tendency to treat these people
+                                    exactly like that subset of data. While a particular data set may have millions of
+                                    data on white men, people of other ethnic and gender backgrounds may only have data
+                                    in the thousands. This algorithmically reduces anyone who is tested on this
+                                    algorithm to have the same tendencies as this small subset of people from the
+                                    training set that had the same background. This easily continues to perpetuate
+                                    stereotypes and discriminate since there is likely historical inequities in this
+                                    group which is further magnified when the test group is algorithmically determined
+                                    to behave in the same way. Within a racial group there is still variation along many
+                                    factors, some being wealth, age, height and weight, and more. But having low
+                                    representation in the training set reduces people to the small range given in the
+                                    training. White males on the other hand have a large range of people with differing
+                                    features in these same factors. So accuracy on white males is much higher as there
+                                    is a wide range the AI is trained on unlike for other ethnic groups that are reduced
+                                    to being one and the same due to minimal representation in training sets. In order
+                                    to combat this, training data sets must be much more inclusive of the ethnic and
+                                    gender backgrounds of the population for higher accuracy and less discriminatory
+                                    biases in the algorithms.
                                 </p>
 
                                 <div class="button-row">
-                                    <div class="button-col3">
+                                    <div class="button-col">
                                         <button class="btn btn-primary" onClick="window.open('#!');">
                                             <i class="fas fa-link"></i>
                                             Link
                                         </button>
                                     </div>
-                                    <div class="button-col3">
-                                        <button class="btn btn-primary" onClick="window.open('#!');">
-                                            <i class="fas fa-link"></i>
-                                            Link
-                                        </button>
-                                    </div>
-                                    <div class="button-col3">
+                                  
+                                    <div class="button-col">
                                         <button class="btn btn-primary" data-dismiss="modal">
                                             <i class="fas fa-times fa-fw"></i>
                                             Close
@@ -569,14 +628,54 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Problems/Solution Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/solutions/s2.png" alt="" />
+                                <img class="img-fluid rounded" src="assets/img/solutions/s2.png" alt="" />
+                                <p class="font-weight-light"> <i>img credit:
+                                </i>
+                            </p>
                                 <!-- Problems/Solution Modal - Text-->
-                                <p class="mb-5">While efforts to mitigate bias begin in the pre processing of data, post processing analysis is also critical once the AI program has been trained. Live testing the program is critical to check for bias and issues in the algorithms. The testing must be done on a large group of people of various racial and gender backgrounds and then validated for accuracy. If there is discrimination or low accuracy amongst certain groups, this must be noted and analyzed. Analysis is one of the most critical tools for fighting biases in AI. Ask yourself: why is this algorithm disproportionately affecting these groups? Is it based on low representation in the training data? Is it due to historical inequities and prejudice? Is it due to a non-inclusive algorithm? Are these results from the algorithm furthering racial and gender discrimination? These questions will lead to productive discussions that inspire solutions to help mitigate bias. 
-                                    This process will also be assisted by having a diverse machine learning team. People of diverse backgrounds raise different questions and interact with AI in differing ways that help account for potential issues that can then be solved by the team. Diversity in technology fields helps promote inclusivity in AI and reduce bias.
-                                    Data weighting is another tool that can help with data bias especially when there is low amounts of data for certain groups of people. Weights can be applied to the data points from these smaller racial and gender groups in order to boost their importance in training. However, this must be done very carefully as artificial boosting can also create more bias by picking up on noise in data and magnifying that. If done lightly and properly, data weighting can help reduce some bias however caution must be taken to prevent these groups from again falling trap to being treated exactly as their similar counterparts in the training data.
-                                    Cross validation can be used to verify the accuracy of an algorithm with information that can potentially be biasing. This process involves training the algorithm on all data sets apart from the potentially biasing factor. Then both the original algorithm and the algorithm without the potential bias should be validated on an inclusive test model for accuracy. If there is significant difference between them this could mean that that factor is a cause of discrimination and thus should be analyzed further to determine whether this is a harmful factor or an important one that does not harm groups of people and solely increases algorithmic accuracy. 
-                                    Counterfactual modeling can also be used to decrease bias. A bank noticed that women were seen as credit risks much more frequently than men despite there not being a factual basis for this. They utilized IBM’s Watson OpenScale to manage their AI system and used counterfactual modeling where they ran their credit risk algorithm on women to see if they were a loan risk. If the woman was seen as a risk they would rerun the program but change her gender to male. If she was no longer a risk when labeled as male in the algorithm, the bank determined that it was an algorithmic bias and she was not actually a risk. The bank utilized this to help mitigate bias and prevent wrongful denials of loans and high interest rates to people who did not deserve this for the simple fact that they are female.
-                                    
+                                <p class="lead text-left">While efforts to mitigate bias begin in the pre processing of data, post
+                                    processing analysis is also critical once the AI program has been trained. Live
+                                    testing the program is critical to check for bias and issues in the algorithms. The
+                                    testing must be done on a large group of people of various racial and gender
+                                    backgrounds and then validated for accuracy. If there is discrimination or low
+                                    accuracy amongst certain groups, this must be noted and analyzed. Analysis is one of
+                                    the most critical tools for fighting biases in AI. Ask yourself: why is this
+                                    algorithm disproportionately affecting these groups? Is it based on low
+                                    representation in the training data? Is it due to historical inequities and
+                                    prejudice? Is it due to a non-inclusive algorithm? Are these results from the
+                                    algorithm furthering racial and gender discrimination? These questions will lead to
+                                    productive discussions that inspire solutions to help mitigate bias.<br>
+                                    This process will also be assisted by having a diverse machine learning team. People
+                                    of diverse backgrounds raise different questions and interact with AI in differing
+                                    ways that help account for potential issues that can then be solved by the team.
+                                    Diversity in technology fields helps promote inclusivity in AI and reduce bias.
+                                    Data weighting is another tool that can help with data bias especially when there is
+                                    low amounts of data for certain groups of people. Weights can be applied to the data
+                                    points from these smaller racial and gender groups in order to boost their
+                                    importance in training. However, this must be done very carefully as artificial
+                                    boosting can also create more bias by picking up on noise in data and magnifying
+                                    that. If done lightly and properly, data weighting can help reduce some bias however
+                                    caution must be taken to prevent these groups from again falling trap to being
+                                    treated exactly as their similar counterparts in the training data.<br>
+                                    Cross validation can be used to verify the accuracy of an algorithm with information
+                                    that can potentially be biasing. This process involves training the algorithm on all
+                                    data sets apart from the potentially biasing factor. Then both the original
+                                    algorithm and the algorithm without the potential bias should be validated on an
+                                    inclusive test model for accuracy. If there is significant difference between them
+                                    this could mean that that factor is a cause of discrimination and thus should be
+                                    analyzed further to determine whether this is a harmful factor or an important one
+                                    that does not harm groups of people and solely increases algorithmic accuracy.
+                                    Counterfactual modeling can also be used to decrease bias. A bank noticed that women
+                                    were seen as credit risks much more frequently than men despite there not being a
+                                    factual basis for this. They utilized IBM’s Watson OpenScale to manage their AI
+                                    system and used counterfactual modeling where they ran their credit risk algorithm
+                                    on women to see if they were a loan risk. If the woman was seen as a risk they would
+                                    rerun the program but change her gender to male. If she was no longer a risk when
+                                    labeled as male in the algorithm, the bank determined that it was an algorithmic
+                                    bias and she was not actually a risk. The bank utilized this to help mitigate bias
+                                    and prevent wrongful denials of loans and high interest rates to people who did not
+                                    deserve this for the simple fact that they are female.
+
                                 </p>
 
                                 <div class="button-row">
@@ -601,212 +700,6 @@
             </div>
         </div>
     </div>
-    <!-- Problems/Solution Modal 9-->
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal9Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Problems/Solution Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal9Label">Log Cabin</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Problems/Solution Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
-                                <!-- Problems/Solution Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-                                </p>
-
-                                <div class="button-row">
-                                    <div class="button-col">
-                                        <button class="btn btn-primary" onClick="window.open('#!');">
-                                            <i class="fas fa-link"></i>
-                                            Link
-                                        </button>
-                                    </div>
-                                    <div class="button-col">
-                                        <button class="btn btn-primary" data-dismiss="modal">
-                                            <i class="fas fa-times fa-fw"></i>
-                                            Close
-                                        </button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Problems/Solution Modal 10-->
-    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal10Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Problems/Solution Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal10Label">Log Cabin</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Problems/Solution Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
-                                <!-- Problems/Solution Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-                                </p>
-
-                                <div class="button-row">
-                                    <div class="button-col">
-                                        <button class="btn btn-primary" onClick="window.open('#!');">
-                                            <i class="fas fa-link"></i>
-                                            Link
-                                        </button>
-                                    </div>
-                                    <div class="button-col">
-                                        <button class="btn btn-primary" data-dismiss="modal">
-                                            <i class="fas fa-times fa-fw"></i>
-                                            Close
-                                        </button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Problems/Solution Modal 11-->
-    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal11Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Problems/Solution Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal11Label">Log Cabin</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Problems/Solution Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
-                                <!-- Problems/Solution Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-                                </p>
-
-                                <div class="button-row">
-                                    <div class="button-col">
-                                        <button class="btn btn-primary" onClick="window.open('#!');">
-                                            <i class="fas fa-link"></i>
-                                            Link
-                                        </button>
-                                    </div>
-                                    <div class="button-col">
-                                        <button class="btn btn-primary" data-dismiss="modal">
-                                            <i class="fas fa-times fa-fw"></i>
-                                            Close
-                                        </button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Problems/Solution Modal 12-->
-    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal12Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Problems/Solution Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal12Label">Log Cabin</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Problems/Solution Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/solutions/s1.png" alt="" />
-                                <!-- Problems/Solution Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-                                </p>
-
-                                <div class="button-row">
-                                    <div class="button-col">
-                                        <button class="btn btn-primary" onClick="window.open('#!');">
-                                            <i class="fas fa-link"></i>
-                                            Link
-                                        </button>
-                                    </div>
-
-                                    <div class="button-col ">
-                                        <button class="btn btn-primary" data-dismiss="modal">
-                                            <i class="fas fa-times fa-fw"></i>
-                                            Close
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 
     <!-- ref-->
@@ -832,21 +725,55 @@
                                 </div>
                                 <!--  Modal - Text-->
                                 <ul>
-                                    <li>“Argentina: Child Suspects’ Private Data Published Online.” Human Rights Watch, 9 Oct. 2020, https://www.hrw.org/news/2020/10/09/argentina-child-suspects-private-data-published-online.</li>
-                                    <li>Buolamwini, Joy. “How I'm Fighting Bias in Algorithms.” YouTube, YouTube, 29 Mar. 2017, www.youtube.com/watch?v=UG_X_7g63rY.</li>
-                                    <li>Callahan, Molly. Facebook’s Ad Delivery System Still Discriminates by Race, Gender, Age. 18 Dec. 2019, https://news.northeastern.edu/2019/12/18/facebooks-ad-delivery-system-still-discriminates-by-race-gender-age-y/.</li>
-                                    <li>Dastin, Jeffrey. “Amazon Scraps Secret AI Recruiting Tool That Showed Bias against Women.” Reuters, https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G. Accessed 19 Dec. 2020.</li>
-                                    <li>“How to Reduce Bias in AI with a Focus on Training Data.” Appen, 6 Aug. 2020, appen.com/blog/how-to-reduce-bias-in-ai/.</li>
-                                    <li>Lynch, Vince. “Three Ways to Avoid Bias in Machine Learning.” TechCrunch, 6 Nov. 2018, techcrunch.com/2018/11/06/3-ways-to-avoid-bias-in-machine-learning/.</li>
-                                    <li>“Project Overview ‹ Actionable Auditing: Coordinated Bias Disclosure Study – MIT Media Lab.” MIT Media Lab, https://www.media.mit.edu/projects/actionable-auditing-coordinated-bias-disclosure-study/overview/. Accessed 19 Dec. 2020.</li>
-                                    <li>Simonite, Tom. “When It Comes to Gorillas, Google Photos Remains Blind.” WIRED, 19 Dec. 2020, https://www.wired.com/story/when-it-comes-to-gorillas-google-photos-remains-blind/.</li>
-                                    <li>“This Is a Story About Nerds and Cops.” Carceral Capitalism, by Jackie Wang, Semiotext(e), 2018. https://app.perusall.com/courses/cgs-108-ltcs-108-gender-race-and-artificial-int-mendelsohn-fa20/jackie-wang-this-is-a-story-about-nerds-and-cops-_-predpol-and-algorithmic-policing-from-carceral-capitalism-2018.</li>
-                                    <li>Totty, Michael. “How to Make Artificial Intelligence Less Biased.” The Wall Street Journal, Dow Jones & Company, 3 Nov. 2020, www.wsj.com/articles/how-to-make-artificial-intelligence-less-biased-11604415654.</li>
-                                    <li>Turner-Lee, Nicol, et al. “Algorithmic Bias Detection and Mitigation: Best Practices and Policies to Reduce Consumer Harms.” Brookings, Brookings, 25 Oct. 2019, www.brookings.edu/research/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/.</li>
-                                    <li>Uzzi, Brian. “A Simple Tactic That Could Help Reduce Bias in AI.” Harvard Business Review, 4 Nov. 2020, hbr.org/2020/11/a-simple-tactic-that-could-help-reduce-bias-in-ai. </li>
-                                    <li>Vincent, James. “Twitter Taught Microsoft’s Friendly AI Chatbot to Be a Racist Asshole in Less than a Day.” The Verge, 24 Mar. 2016, https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist.</li>
-                                    <li>West, Sarah Myers, et al. “Discriminating Systems:Gender, Race, and Power in AI.” AI Now Institute, AI Now , Apr. 2019, ainowinstitute.org/discriminatingsystems.pdf. </li>
-                                
+                                    <li>“Argentina: Child Suspects’ Private Data Published Online.” Human Rights Watch,
+                                        9 Oct. 2020,
+                                        https://www.hrw.org/news/2020/10/09/argentina-child-suspects-private-data-published-online.
+                                    </li>
+                                    <li>Buolamwini, Joy. “How I'm Fighting Bias in Algorithms.” YouTube, YouTube, 29
+                                        Mar. 2017, www.youtube.com/watch?v=UG_X_7g63rY.</li>
+                                    <li>Callahan, Molly. Facebook’s Ad Delivery System Still Discriminates by Race,
+                                        Gender, Age. 18 Dec. 2019,
+                                        https://news.northeastern.edu/2019/12/18/facebooks-ad-delivery-system-still-discriminates-by-race-gender-age-y/.
+                                    </li>
+                                    <li>Dastin, Jeffrey. “Amazon Scraps Secret AI Recruiting Tool That Showed Bias
+                                        against Women.” Reuters,
+                                        https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G.
+                                        Accessed 19 Dec. 2020.</li>
+                                    <li>“How to Reduce Bias in AI with a Focus on Training Data.” Appen, 6 Aug. 2020,
+                                        appen.com/blog/how-to-reduce-bias-in-ai/.</li>
+                                    <li>Lynch, Vince. “Three Ways to Avoid Bias in Machine Learning.” TechCrunch, 6 Nov.
+                                        2018, techcrunch.com/2018/11/06/3-ways-to-avoid-bias-in-machine-learning/.</li>
+                                    <li>“Project Overview ‹ Actionable Auditing: Coordinated Bias Disclosure Study – MIT
+                                        Media Lab.” MIT Media Lab,
+                                        https://www.media.mit.edu/projects/actionable-auditing-coordinated-bias-disclosure-study/overview/.
+                                        Accessed 19 Dec. 2020.</li>
+                                    <li>Simonite, Tom. “When It Comes to Gorillas, Google Photos Remains Blind.” WIRED,
+                                        19 Dec. 2020,
+                                        https://www.wired.com/story/when-it-comes-to-gorillas-google-photos-remains-blind/.
+                                    </li>
+                                    <li>“This Is a Story About Nerds and Cops.” Carceral Capitalism, by Jackie Wang,
+                                        Semiotext(e), 2018.
+                                        https://app.perusall.com/courses/cgs-108-ltcs-108-gender-race-and-artificial-int-mendelsohn-fa20/jackie-wang-this-is-a-story-about-nerds-and-cops-_-predpol-and-algorithmic-policing-from-carceral-capitalism-2018.
+                                    </li>
+                                    <li>Totty, Michael. “How to Make Artificial Intelligence Less Biased.” The Wall
+                                        Street Journal, Dow Jones & Company, 3 Nov. 2020,
+                                        www.wsj.com/articles/how-to-make-artificial-intelligence-less-biased-11604415654.
+                                    </li>
+                                    <li>Turner-Lee, Nicol, et al. “Algorithmic Bias Detection and Mitigation: Best
+                                        Practices and Policies to Reduce Consumer Harms.” Brookings, Brookings, 25 Oct.
+                                        2019,
+                                        www.brookings.edu/research/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/.
+                                    </li>
+                                    <li>Uzzi, Brian. “A Simple Tactic That Could Help Reduce Bias in AI.” Harvard
+                                        Business Review, 4 Nov. 2020,
+                                        hbr.org/2020/11/a-simple-tactic-that-could-help-reduce-bias-in-ai. </li>
+                                    <li>Vincent, James. “Twitter Taught Microsoft’s Friendly AI Chatbot to Be a Racist
+                                        Asshole in Less than a Day.” The Verge, 24 Mar. 2016,
+                                        https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist.</li>
+                                    <li>West, Sarah Myers, et al. “Discriminating Systems:Gender, Race, and Power in
+                                        AI.” AI Now Institute, AI Now , Apr. 2019,
+                                        ainowinstitute.org/discriminatingsystems.pdf. </li>
+
                                 </ul>
                                 <div class="text-center">
                                     <button class="btn btn-primary" data-dismiss="modal">
